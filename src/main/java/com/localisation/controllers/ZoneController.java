@@ -16,6 +16,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @Tag(name = "Zone Controller")
 @RestController
+@CrossOrigin (origins ="*")
 @RequestMapping("/api/v1/zones")
 public class ZoneController {
 	@Autowired

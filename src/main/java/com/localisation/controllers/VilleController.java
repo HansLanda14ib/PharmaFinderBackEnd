@@ -28,7 +28,9 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @Tag(name = "le controlleur de -Ville-")
 @RestController
+@CrossOrigin (origins ="*")
 @RequestMapping("/api/v1/cities")
+
 public class VilleController {
 
 	@Autowired

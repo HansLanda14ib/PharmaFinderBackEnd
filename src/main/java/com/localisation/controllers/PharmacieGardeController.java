@@ -25,6 +25,7 @@ import com.localisation.services.PharmacieGardeService;
 import org.webjars.NotFoundException;
 
 @RestController
+@CrossOrigin (origins ="*")
 @RequestMapping("/api/v1/pharmaciesgarde")
 public class PharmacieGardeController {
     @Autowired
